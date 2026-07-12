@@ -24,6 +24,8 @@ url: >-
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/lexmark-international-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/LexmarkES
   - type: LinkedIn
