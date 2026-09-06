@@ -78,3 +78,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+x-parent: xerox
+x-relationship: acquisition
