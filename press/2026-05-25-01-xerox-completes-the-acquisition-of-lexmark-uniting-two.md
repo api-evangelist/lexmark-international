@@ -1,7 +1,9 @@
 ---
 title: Xerox Completes the Acquisition of Lexmark, Uniting Two ...
 url: https://investors.xerox.com/news-releases/news-release-details/xerox-completes-acquisition-lexmark-uniting-two-industry-leaders
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lexmark International" press release artificial intelligence'
 position: 1
 source: serpapi-google

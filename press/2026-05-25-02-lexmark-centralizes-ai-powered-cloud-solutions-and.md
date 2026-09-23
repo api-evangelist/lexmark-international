@@ -1,7 +1,9 @@
 ---
 title: Lexmark Centralizes AI-Powered Cloud Solutions and ...
 url: https://www.prnewswire.com/news-releases/lexmark-centralizes-ai-powered-cloud-solutions-and-expands-9-series-printer-lineup-302367074.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lexmark International" press release artificial intelligence'
 position: 2
 source: serpapi-google

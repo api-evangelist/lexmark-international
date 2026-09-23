@@ -1,0 +1,25 @@
+# Front Door AI Index — lexmark-international — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: lexmark-international
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.lexmark.com
+  final_host: www.lexmark.com
+  ownership: own
+  owner: lexmark-international
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 2.35
+  words: 425
+  tiers:
+    agentic: 0
+    core: 1
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 1

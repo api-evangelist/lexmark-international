@@ -1,7 +1,9 @@
 ---
 title: Lexmark Cloud Print Infrastructure as a Service
 url: https://media.lexmark.com/www/idml/assets/asset_12724/media/en_GB/pdfs/low.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lexmark International" press release artificial intelligence'
 position: 3
 source: serpapi-google
