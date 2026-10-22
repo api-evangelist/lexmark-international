@@ -111,3 +111,135 @@
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   status: not-a-workflow
   arazzo: null
+- slug: lexmark-international-usb-if-certified-products
+  label: USB-IF certified products
+  partner_name: USB-IF certified products
+  category: USB compliance certification
+  type: register
+  channel: standard-directory
+  evidence: https://www.usb.org/products
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: USB-IF certified product list (usb.org/products)
+    standard: USB-IF Compliance Program
+    spec_file: null
+    role: usb-if-certified-product
+    registered_name: Lexmark International Inc.
+    register_id: https://www.usb.org/products
+    matched_domain: null
+    matched_by: register-name
+    register_name_note: register-name 'lexmarkinternational' = lexmark-international; no wikidata P856
+    certified_products:
+    - product: USB certified product (unclassified)
+      lapsed: true
+      newest_certification: '2017-09-29'
+    - product: USB peripherals
+      lapsed: true
+      newest_certification: '2019-10-17'
+    - product: USB silicon and IP
+      lapsed: true
+      newest_certification: '2011-10-05'
+    products_sample:
+    - 1022501 ASIC
+    - 1025050 ASIC
+    - '3120'
+    - '3150'
+    - '3203'
+    - 4200 Series / X4250
+    - 4476-K01
+    - AIO 4M
+    signal_note: certified_products = one entry per USB product family, never per product or TID. lapsed = the family's
+      NEWEST certification is older than two years (USB-IF's own list hides those and says they may fail the current
+      Compliance Program)
+    detected_by: sweep-wireless-connectivity-certification.py
+    detected: '2026-10-22'
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  status: not-a-workflow
+  arazzo: null
+- slug: lexmark-international-wi-fi-alliance-certified-products
+  label: Wi-Fi Alliance certified products
+  partner_name: Wi-Fi Alliance certified products
+  category: Wi-Fi certification
+  type: register
+  channel: standard-directory
+  evidence: https://www.wi-fi.org/product-finder
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Wi-Fi Alliance product finder (wi-fi.org/product-finder; prf.cert.wi-fi.org public JSON / CSV)
+    standard: Wi-Fi CERTIFIED
+    spec_file: null
+    role: wi-fi-certified-product
+    registered_name: Lexmark International, Inc.
+    register_id: WFA131473
+    matched_domain: null
+    matched_by: register-name
+    register_name_note: register-name 'lexmarkinternational' = lexmark-international; no wikidata P856
+    certified_products:
+    - product: Computers & Accessories
+      lapsed: false
+      newest_certification: '2025-11-03'
+      generations:
+      - Wi-Fi 7
+      - Wi-Fi 6
+      - Wi-Fi 5 (ac)
+      - Wi-Fi 4 (n)
+    products_sample:
+    - B2236dw
+    - B2338dw.M08001
+    - B2442dw.M08001
+    - B2546dw
+    - B2650dw
+    - B3340dw
+    - B3442dw
+    - C2325dw
+    signal_note: certified_products = one entry per Wi-Fi Alliance product category, never per product, variant
+      or CID; generations are context. Wi-Fi CERTIFIED does not expire and the finder marks nothing withdrawn, so
+      lapsed is false
+    detected_by: sweep-wireless-connectivity-certification.py
+    detected: '2026-10-22'
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  status: not-a-workflow
+  arazzo: null
+- slug: lexmark-international-us-epa-energy-star
+  label: US EPA ENERGY STAR
+  partner_name: US EPA ENERGY STAR
+  category: ENERGY STAR product certification
+  type: register
+  channel: standard-directory
+  evidence: https://data.energystar.gov/d/8wj2-sec8
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ENERGY STAR Model Index, all currently certified models (data.energystar.gov/resource/8wj2-sec8)
+    standard: ENERGY STAR (US EPA product specifications)
+    spec_file: null
+    role: energy-star-partner
+    registered_name: Lexmark International, Inc.
+    register_id: https://data.energystar.gov/d/8wj2-sec8
+    matched_domain: lexmark.com
+    matched_by: domain
+    certified_products:
+    - product: Imaging Equipment
+      product_type: Imaging Equipment
+      lapsed: false
+      brands:
+      - Lexmark
+      first_certified: '2019-05-23'
+    connected_product_types: []
+    signal_note: 'certified_products = ONE entry per ENERGY STAR product category with a currently certified model
+      (the Model Index lists current certifications only, so lapsed is False; delisted models drop out); connected:
+      true where the category''s dataset flags connected / network capability for this partner''s models (Smart
+      Thermostats and Connected lighting are connected by definition). Brands are context; model counts are never
+      counted.'
+    detected_by: sweep-energy-star-certified-products.py
+    detected: '2026-10-22'
+    identity: wikidata Q1415501 'Lexmark' P856 https://www.lexmark.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null
